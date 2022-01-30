@@ -1,25 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CoinCollectionScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] public Text Score;
+    [SerializeField] public float score;
+
     void Start()
     {
-        
+        Score.text = "Score: " + score;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);
+            score += 10;
+            Score.text = "Score: " + score;
         }
     }
 }
