@@ -1175,11 +1175,11 @@ MonoBehaviour:
   Score: {fileID: 548667406}
   Timer: {fileID: 667390759}
   score: 0
-  timeleft: 20
+  timeleft: 40
   totalcoins: 6
-  timeremaining: 20
+  timeremaining: 40
   scorevalue: 0
-  Timervalue: 20
+  Timervalue: 40
 --- !u!1 &513957027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,7 +1560,7 @@ PrefabInstance:
     - target: {fileID: 6097434492816708849, guid: c74e8b9c28ff74f30baa0db706d43722,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.7
+      value: -10.4
       objectReference: {fileID: 0}
     - target: {fileID: 6097434492816708849, guid: c74e8b9c28ff74f30baa0db706d43722,
         type: 3}
@@ -3352,7 +3352,7 @@ PrefabInstance:
     - target: {fileID: 6097434492816708849, guid: c74e8b9c28ff74f30baa0db706d43722,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.7
+      value: -10.4
       objectReference: {fileID: 0}
     - target: {fileID: 6097434492816708849, guid: c74e8b9c28ff74f30baa0db706d43722,
         type: 3}
